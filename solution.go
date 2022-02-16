@@ -1,5 +1,8 @@
 package solution
 
+import "fmt"
+
 func GetMessage() string {
-	return ""
+	const str1 = "Hello 🗺️!"
+	return fmt.Sprint(str1)
 }
