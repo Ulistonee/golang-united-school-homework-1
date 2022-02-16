@@ -1,8 +1,8 @@
 package solution
 
-import "fmt"
+import "github.com/kyokomi/emoji"
 
 func GetMessage() string {
-	const str1 = "Hello 🗺️!"
-	return fmt.Sprint(str1)
+
+	return emoji.Sprint("Hello 🗺️!")
 }
